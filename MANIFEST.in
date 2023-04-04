@@ -1,0 +1,2 @@
+recursive-include tutormitxpro_oauth/patches *
+recursive-include tutormitxpro_oauth/templates *

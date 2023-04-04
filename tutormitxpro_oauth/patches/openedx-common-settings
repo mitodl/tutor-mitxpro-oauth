@@ -1,0 +1,6 @@
+THIRD_PARTY_AUTH_BACKENDS = ['social_auth_mitxpro.backends.MITxProOAuth2']
+AUTHENTICATION_BACKENDS.append('social_auth_mitxpro.backends.MITxProOAuth2')
+FEATURES['ENABLE_AUTHN_MICROFRONTEND'] = False
+FEATURES['SKIP_EMAIL_VALIDATION'] = True
+REGISTRATION_EXTRA_FIELDS["terms_of_service"] = "hidden"
+CORS_ORIGIN_WHITELIST.append("http://local.overhang.io:8000")
